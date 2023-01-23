@@ -8,6 +8,9 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.0.0"
+    "nuxt": "^3.0.0",
+    "@nuxtjs/supabase": "^0.3.0",
+    "@supabase/supabase-js": "^2.2.2",
+    "vercel": "^28.10.1"
   }
 }
