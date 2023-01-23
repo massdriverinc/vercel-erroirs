@@ -12,10 +12,6 @@ export default defineNuxtConfig({
     cookies: {
       name: "sb",
     },
-    client {
-      global: { headers: { Authorization } }
-    }
-
   },
   modules: [
     "@nuxtjs/supabase",
